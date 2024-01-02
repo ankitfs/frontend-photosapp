@@ -1,0 +1,57 @@
+.register-employee {
+    background-color: brown;
+    height: 500px;
+}
+
+.register-employee-heading {
+    text-align: center;
+    color: blue;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+
+.register-employee .form-input-div, .register-employee .form-submit-div {
+    width: 50%;
+    margin: auto;
+    line-height: 25px;
+    padding-bottom: 5px;
+}   
+
+.register-employee .form-input-div label {
+    display: inline-block;
+    width: 250px;
+    padding-left: 70px;
+}
+
+.register-employee .form-input-div input {
+    margin-left: 100px;
+    line-height: 20px;
+}
+
+.register-employee .form-input-div small {
+    margin-left: 10px;
+}
+
+.register-employee .form-input-div .other {
+    margin-left: 10px;
+}
+
+.register-employee .form-input-div input[type="date"] {
+    width: 144px;
+}
+
+.register-employee .form-submit-div input[type="submit"]{
+    background-color: blue;
+    line-height: 30px;
+    width: 175px;
+    font-size: 1.00em;
+    margin-top: 30px;
+}
+
+.register-employee .form-submit-div {
+    padding-left: 250px;
+}
+
+.register-employee .form-submit-div input:hover[type="submit"] {
+    cursor: pointer;
+}

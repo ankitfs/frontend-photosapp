@@ -1,5 +1,7 @@
 import React from "react";
 import axios from "axios";
+import EmployeeForm from "./EmployeeForm";
+import '../css/Register.css';
 
 //Component handing the User Registration
 function Register() {
@@ -46,41 +48,9 @@ function Register() {
 
     return (
         <div className="register-employee">
-            <h2>Register Employee</h2>
+            <h2 className="register-employee-heading">Register Employee</h2>
             <form onSubmit={registerFormHandler}>
-                <div className="form-input-div">
-                    <label>First Name</label>
-                    <input type="text" name="firstName"/>
-                </div>
-                <div className="form-input-div">
-                    <label>Last Name</label>
-                    <input type="text" name="lastName"/>
-                </div>
-                <div className="form-input-div">
-                    <label>Email</label>
-                    <input type="email" name="email"/>
-                </div>
-                <div className="form-input-div">
-                    <label>Password</label>
-                    <input type="password" name="firstPassword"/>
-                </div>
-                <div className="form-input-div">
-                    <label>Confirm Password</label>
-                    <input type="password" name="confirmPassword"/>
-                </div>
-                <div className="form-input-div">
-                    <label>Gender</label>
-                    <span><input type="radio" name="gender" value="m"/><label>Male </label></span>
-                    <span><input type="radio" name="gender" value="f"/><label>Female </label></span>
-                    <span><input type="radio" name="gender" value="o"/><label>Other </label></span>
-                </div>
-                <div className="form-input-div">
-                    <label>Date of Birth</label>
-                    <input type="date" name="dob" />
-                </div>
-                <div className="form-submit-div">
-                    <input type="submit" value="Register"/>
-                </div>
+                <EmployeeForm/>
             </form>
         </div>
     )   

@@ -1,9 +1,10 @@
 import React from "react";
+import '../css/Header.css';
 
 function Header () {
 
     return (
-        <header>Photos Application</header>
+        <header className="application-header">Photos Application</header>
     )
 
 }

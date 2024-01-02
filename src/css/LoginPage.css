@@ -1,0 +1,43 @@
+.login-screen {
+    margin: 1px 1px;
+    border: 2px solid #0000a0;
+    background-color: brown;
+    height: 300px;
+}
+
+#login-form .login-heading {
+    font-size: 30px;
+    color: blue;
+    margin: 10px;
+    text-align: center;
+}
+
+.login-input, .login-submit {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.login-input label {
+    display: inline-block;
+    padding-right: 50px;
+    border: 2px solid brown;
+    line-height: 20px;
+}
+
+.login-input input {
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+.login-submit input[type="submit"]{
+    line-height: 30px;
+    border-radius: 3px;
+    width: 100px;
+    background-color: green;
+}
+
+.login-submit input:hover[type="submit"] {
+    cursor: pointer;
+}
